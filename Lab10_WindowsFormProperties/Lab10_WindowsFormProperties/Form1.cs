@@ -21,5 +21,10 @@ namespace Lab10_WindowsFormProperties
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
