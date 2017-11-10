@@ -15,9 +15,13 @@ namespace P01
         public Form1()
         {
             InitializeComponent();
+            btnHello = new Button();
+            btnHello.Location = new Point(20, 20);
+            btnHello.Text = "Hello";
+            this.Controls.Add(btnHello);
         }
 
-        private void button1_ControlAdded(object sender, ControlEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }
