@@ -85,6 +85,7 @@
             this.calculateButton.TabIndex = 5;
             this.calculateButton.Text = "Calculate Sum";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // SumTwoNumbers
             // 
